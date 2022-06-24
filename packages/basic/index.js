@@ -1,3 +1,4 @@
+// https://github.com/lerna/lerna/issues/1821
 module.exports = {
     env: {
         es6: true,
