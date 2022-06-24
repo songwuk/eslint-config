@@ -1,11 +1,8 @@
 {
     "extends": [
         ""
-    ],
+    ]
     /*
      * https://eslint.org/docs/latest/user-guide/configuring/plugins#configuring-plugins
     */
-    "plugins": [
-        "normal"
-    ]
 }

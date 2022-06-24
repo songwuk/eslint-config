@@ -1,0 +1,21 @@
+{
+  "name": "@songwuk/eslint-config-basic",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "homepage": "https://github.com/songwuk/eslint-config",
+  "files": [
+    "*.js"
+  ],
+  "author": "Song wuk <1017301325@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.16.0"
+  },
+  "dependencies": {
+    "eslint-plugin-normal": "^0.0.1"
+  }
+}
