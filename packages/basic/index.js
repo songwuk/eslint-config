@@ -11,6 +11,7 @@ module.exports = {
         'normal',
     ],
     rules: {
+        'no-var': 'warn',
         'no-alert': 'warn',
         // normal
         'normal/if-newline': 'error',

@@ -1,2 +1,2 @@
-# eslint-config-normal
-eslint-config-normal
+# eslint-config
+eslint-config

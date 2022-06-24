@@ -1,8 +1,11 @@
 {
   "name": "@songwuk/eslint-config-basic",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
+  "keywords": [
+    "eslint-config"
+  ],
   "scripts": {
     "lint": "eslint . --config=index.js"
   },
@@ -16,6 +19,6 @@
     "eslint": "^8.16.0"
   },
   "dependencies": {
-    "eslint-plugin-normal": "^0.0.1"
+    "eslint-plugin-normal": "^0.0.2"
   }
 }
