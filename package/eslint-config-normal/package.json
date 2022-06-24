@@ -1,0 +1,41 @@
+{
+  "name": "eslint-config-normal",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "eslint-config-normal",
+  "keywords": [
+    "eslint",
+    "normal"
+  ],
+  "author": "Song wuk <1017301325@qq.com>",
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.js"
+    }
+  },
+  "main": "./index.js",
+  "module": "./index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/songwuk/eslint-config-normal.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/songwuk/eslint-config-normal/issues"
+  },
+  "homepage": "https://github.com/songwuk/eslint-config-normal#readme",
+  "devDependencies": {
+    "@typescript-eslint/utils": "^5.29.0",
+    "eslint": "^8.18.0",
+    "tsup": "^6.1.2"
+  }
+}
