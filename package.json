@@ -13,6 +13,7 @@
     },
     "license": "MIT",
     "devDependencies": {
+      "@songwuk/eslint-config-basic": "*",
       "typescript": "^4.7.2",
       "eslint": "^8.18.0",
       "tsup": "^6.1.2"
