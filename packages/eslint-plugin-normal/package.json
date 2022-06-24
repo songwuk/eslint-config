@@ -1,53 +1,24 @@
 {
   "name": "eslint-plugin-normal",
-  "version": "0.0.2",
-  "type": "module",
-  "description": "eslint-plugin-normal",
-  "keywords": [
-    "eslint",
-    "normal"
-  ],
-  "author": "Song wuk <1017301325@qq.com>",
-  "exports": {
-    ".": {
-      "require": "./dist/index.cjs",
-      "import": "./dist/index.js",
-      "types": "./dist/index.d.ts"
-    }
-  },
+  "version": "0.0.3",
+  "license": "MIT",
+  "homepage": "https://github.com/songwuk/eslint-config",
   "main": "./dist/index.cjs",
-  "module": "./dist/index.js",
+  "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "typesVersions": {
-    "*": {
-      "*": [
-        "./dist/*",
-        "./dist/index.d.ts"
-      ]
-    }
-  },
   "files": [
     "dist"
   ],
   "scripts": {
-    "dev": "tsup --watch",
-    "prepublishOnly": "pnpm run build",
-    "build": "tsup --dts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rimraf dist && unbuild",
+    "stub": "unbuild --stub",
+    "prepublishOnly": "pnpm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/songwuk/eslint-config.git"
+  "dependencies": {
+    "@typescript-eslint/utils": "^5.26.0"
   },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/songwuk/eslint-config/issues"
-  },
-  "homepage": "https://github.com/songwuk/eslint-config#readme",
   "devDependencies": {
-    "@typescript-eslint/utils": "^5.29.0",
-    "eslint": "^8.18.0",
-    "tsup": "^6.1.2",
-    "typescript": "^4.7.2"
+    "unbuild": "^0.7.4",
+    "vitest": "^0.12.9"
   }
 }

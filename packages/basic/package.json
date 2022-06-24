@@ -1,6 +1,6 @@
 {
   "name": "@songwuk/eslint-config-basic",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "keywords": [
@@ -19,6 +19,6 @@
     "eslint": "^8.16.0"
   },
   "dependencies": {
-    "eslint-plugin-normal": "^0.0.2"
+    "eslint-plugin-normal": "workspace:*"
   }
 }
