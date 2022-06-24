@@ -5,12 +5,19 @@ module.exports = {
         browser: true,
         node: true,
     },
+    reportUnusedDisableDirectives: true,
     /**
      * https://eslint.org/docs/latest/user-guide/configuring/plugins#configuring-plugins
      */
     plugins:[
         'normal',
     ],
+    settings: {
+        'import/resolver': {
+          node: { extensions: ['.js', '.mjs'] },
+        },
+        "sharedData": "Hello"
+    },
     rules: {
         'no-var': 'warn',
         'no-alert': 'warn',

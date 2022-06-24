@@ -1,4 +1,6 @@
 {
-    "extends": "@songwuk"
+    "extends": [
+        "@songwuk/eslint-config-basic"
+    ]
 }
   

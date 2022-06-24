@@ -6,11 +6,13 @@ importers:
     specifiers:
       '@songwuk/eslint-config-basic': '*'
       eslint: ^8.18.0
+      eslint-plugin-normal: workspace:*
       tsup: ^6.1.2
       typescript: ^4.7.2
     devDependencies:
       '@songwuk/eslint-config-basic': link:packages/basic
       eslint: 8.18.0
+      eslint-plugin-normal: link:packages/eslint-plugin-normal
       tsup: 6.1.2_typescript@4.7.4
       typescript: 4.7.4
 
