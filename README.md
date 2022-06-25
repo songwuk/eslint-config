@@ -1,2 +1,2 @@
-# eslint-config
-eslint-config
+<h1 align="left">@songwuk/eslint-config-basic</h1>
+<a href="https://www.npmjs.com/package/@songwuk/eslint-config-basic"><img src="https://img.shields.io/npm/v/@songwuk/eslint-config-basic/latest.svg?style=flat-square" alt="NPM Version" /></a>

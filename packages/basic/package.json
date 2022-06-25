@@ -6,7 +6,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "version": "0.0.4",
-  "description": "",
+  "description": "eslint-config-basic for eslint",
   "main": "index.js",
   "keywords": [
     "eslint-config"
