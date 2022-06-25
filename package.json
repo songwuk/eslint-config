@@ -15,7 +15,6 @@
     "devDependencies": {
       "@songwuk/eslint-config-basic": "workspace:*",
       "typescript": "^4.7.2",
-      "eslint-plugin-normal": "workspace:*",
       "eslint": "^8.18.0",
       "tsup": "^6.1.2"
     }

@@ -13,10 +13,12 @@ module.exports = {
         'normal',
     ],
     settings: {
+        /**
+         * https://github.com/import-js/eslint-plugin-import#resolvers
+         */
         'import/resolver': {
           node: { extensions: ['.js', '.mjs'] },
         },
-        "sharedData": "Hello"
     },
     rules: {
         'no-var': 'warn',
