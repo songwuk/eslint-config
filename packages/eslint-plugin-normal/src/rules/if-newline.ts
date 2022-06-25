@@ -1,4 +1,5 @@
 import { ESLintUtils } from '@typescript-eslint/utils'
+// https://eslint.org/docs/latest/user-guide/configuring/plugins
 export const RULE_NAME = 'if-newline'
 export type MessageIds = 'missingIfNewline'
 export type Options = []
