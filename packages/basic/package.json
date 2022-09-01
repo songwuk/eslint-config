@@ -11,6 +11,9 @@
   "files": [
     "index.js"
   ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
   "keywords": [
     "eslint-config"
   ],
