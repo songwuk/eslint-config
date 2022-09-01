@@ -1,7 +1,8 @@
 {
   "name": "eslint-plugin-normal",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "license": "MIT",
+  "type": "module",
   "homepage": "https://github.com/songwuk/eslint-config",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
@@ -15,7 +16,7 @@
     "prepublishOnly": "pnpm run build"
   },
   "dependencies": {
-    "@typescript-eslint/utils": "^5.26.0"
+    "@typescript-eslint/utils": "^5.36.1"
   },
   "devDependencies": {
     "unbuild": "^0.7.4",

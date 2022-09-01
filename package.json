@@ -1,6 +1,6 @@
 {
     "name": "@songwuk/eslint-config-monorepo",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "type": "module",
     "description": "eslint-config-monorepo",
     "keywords": [
@@ -13,8 +13,9 @@
     },
     "license": "MIT",
     "devDependencies": {
-      "@songwuk/eslint-config-basic": "workspace:*",
-      "typescript": "^4.7.2",
+      "@songwuk/eslint-config-basic": "*",
+      "eslint-plugin-normal": "workspace:*",
+      "typescript": "^4.8.2",
       "eslint": "^8.18.0",
       "tsup": "^6.1.2"
     }
