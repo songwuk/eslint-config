@@ -1,23 +1,23 @@
 {
-    "name": "@songwuk/eslint-config-monorepo",
-    "version": "0.0.5",
-    "type": "module",
-    "description": "eslint-config-monorepo",
-    "keywords": [
-      "eslint",
-      "normal"
-    ],
-    "author": "Song wuk <1017301325@qq.com>",
-    "scripts": {
-      "lint": "eslint ."
-    },
-    "license": "MIT",
-    "devDependencies": {
-      "@songwuk/eslint-config-basic": "*",
-      "eslint-plugin-normal": "workspace:*",
-      "typescript": "^4.8.2",
-      "eslint": "^8.18.0",
-      "tsup": "^6.1.2"
-    }
+  "name": "@songwuk/eslint-config-monorepo",
+  "version": "0.0.5",
+  "type": "module",
+  "description": "eslint-config-monorepo",
+  "keywords": [
+    "eslint",
+    "normal"
+  ],
+  "author": "Song wuk <1017301325@qq.com>",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@songwuk/eslint-config-basic": "workspace:*",
+    "eslint-plugin-normal": "workspace:*",
+    "typescript": "^4.8.2",
+    "eslint": "^8.18.0",
+    "tsup": "^6.1.2"
   }
+}
   
