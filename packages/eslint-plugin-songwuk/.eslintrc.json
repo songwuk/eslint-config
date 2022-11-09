@@ -1,3 +1,6 @@
 {
-  "extends": "@songwuk/eslint-config"
+  "extends": "@songwuk",
+  "plugins": [
+    "songwuk"
+  ]
 }

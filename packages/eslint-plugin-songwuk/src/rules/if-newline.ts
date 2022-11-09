@@ -4,7 +4,7 @@ export const RULE_NAME = 'if-newline'
 export type MessageIds = 'missingIfNewline'
 export type Options = []
 const createEslintRule = ESLintUtils.RuleCreator(
-    ruleName => ruleName,
+  ruleName => ruleName,
 )
 export default createEslintRule<Options, MessageIds>({
   name: RULE_NAME,
