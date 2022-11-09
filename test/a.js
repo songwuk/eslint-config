@@ -1,13 +1,14 @@
-
 alert(1)
 
-var a =1 
+const a = 1
 
-if(true){ console.log(11)}
+if (true)
+  console.log(11)
 
+if (true)
+  alert(1)
 
-if (true) console.log('hello')
+/* eslint eqeqeq: "error" */
 
-/*eslint eqeqeq: "error"*/
-
-if (x == 42) { }
+if (x == 42)
+  alert(2)

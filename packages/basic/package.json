@@ -1,32 +1,44 @@
 {
   "name": "@songwuk/eslint-config-basic",
+  "version": "0.0.5",
   "private": false,
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "version": "0.0.5",
   "description": "eslint-config-basic for eslint",
+  "author": "Song wuk <1017301325@qq.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/songwuk/eslint-config",
+  "keywords": [
+    "eslint-config"
+  ],
   "main": "index.js",
   "files": [
     "index.js"
   ],
-  "peerDependencies": {
-    "eslint": ">=7.4.0"
-  },
-  "keywords": [
-    "eslint-config"
-  ],
   "scripts": {
     "lint": "eslint . --config=index.js"
   },
-  "homepage": "https://github.com/songwuk/eslint-config",
-  "author": "Song wuk <1017301325@qq.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "eslint": "^8.23.0"
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "eslint-plugin-normal": "*"
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsonc": "^2.4.0",
+    "eslint-plugin-markdown": "^3.0.0",
+    "eslint-plugin-n": "^15.2.5",
+    "eslint-plugin-no-only-tests": "^3.1.0",
+    "eslint-plugin-promise": "^6.0.1",
+    "eslint-plugin-songwuk": "workspace:*",
+    "eslint-plugin-unicorn": "^43.0.2",
+    "eslint-plugin-yml": "^1.1.0",
+    "jsonc-eslint-parser": "^2.1.0",
+    "yaml-eslint-parser": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0"
   }
 }

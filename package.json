@@ -1,23 +1,21 @@
 {
   "name": "@songwuk/eslint-config-monorepo",
-  "version": "0.0.5",
   "type": "module",
+  "version": "0.0.5",
   "description": "eslint-config-monorepo",
-  "keywords": [
-    "eslint",
-    "normal"
-  ],
   "author": "Song wuk <1017301325@qq.com>",
-  "scripts": {
-    "lint": "eslint ."
-  },
   "license": "MIT",
+  "keywords": [
+    "eslint"
+  ],
+  "scripts": {
+    "lint": "pnpm run -r --filter './packages/{all,basic,eslint-plugin-songwuk,typescript,vue}' lint",
+    "build": "pnpm run  --filter ./packages/eslint-plugin-songwuk build"
+  },
   "devDependencies": {
-    "@songwuk/eslint-config-basic": "workspace:*",
-    "eslint-plugin-normal": "workspace:*",
-    "typescript": "^4.8.2",
+    "@songwuk/eslint-config": "workspace:*",
     "eslint": "^8.18.0",
-    "tsup": "^6.1.2"
+    "eslint-plugin-songwuk": "workspace:*"
   }
 }
-  
+

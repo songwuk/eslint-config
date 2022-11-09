@@ -1,6 +1,0 @@
-{
-  "extends": "@songwuk/eslint-config-basic",
-  "plugins": [
-    "normal"
-  ]
-}
