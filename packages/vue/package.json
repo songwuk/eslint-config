@@ -1,0 +1,33 @@
+{
+  "name": "@songwuk/eslint-config-vue",
+  "version": "0.0.5",
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "description": "eslint-config-vue for eslint",
+  "author": "Song wuk <1017301325@qq.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/songwuk/eslint-config",
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@songwuk/eslint-config-ts": "workspace:*",
+    "eslint-plugin-vue": "^9.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0"
+  }
+}
