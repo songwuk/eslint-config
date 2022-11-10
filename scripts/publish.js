@@ -7,7 +7,7 @@ import {
   publishPackage,
   step,
 } from './releaseUtils.js'
-console.log(colors.inverse(colors.yellow(' DRY RUN ')))
+console.log(colors.inverse(colors.yellow(' RUN ')))
 async function main() {
   const pkgNames = [
     'all',
