@@ -18,7 +18,8 @@
     "index.js"
   ],
   "scripts": {
-    "lint": "eslint . --config=index.js"
+    "lint": "eslint . --config=index.js",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s --commit-path . -l @songwuk/eslint-config -r 1"
   },
   "peerDependencies": {
     "eslint": ">=7.4.0"
