@@ -7,7 +7,7 @@ use `bumpp` bumps my version numbers and more
 use `conventional-changelog-cli` Generate a changelog from git metadata
 
 <p align="left">
-eslint for me and inspired by <a href="https://github.com/antfu/eslint-config">eslint-config</a> 
+eslint code and inspired by <a href="https://github.com/antfu/eslint-config">eslint-config</a> 
 </p>
 
 
