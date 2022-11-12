@@ -2,9 +2,9 @@
 @songwuk/eslint-config
 </h1>
 
-use `bumpp` bumps my version numbers and more
+> use `bumpp` bumps my version numbers and more
 
-use `conventional-changelog-cli` Generate a changelog from git metadata
+> use `conventional-changelog-cli` Generate a changelog from git metadata
 
 <p align="left">
 eslint code and inspired by <a href="https://github.com/antfu/eslint-config">eslint-config</a> 
