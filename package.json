@@ -17,6 +17,7 @@
   "devDependencies": {
     "@songwuk/eslint-config": "workspace:*",
     "bumpp": "^8.2.1",
+    "conventional-changelog-cli": "^2.2.2",
     "eslint": "^8.18.0",
     "eslint-plugin-songwuk": "workspace:*",
     "execa": "^6.1.0",
