@@ -1,7 +1,7 @@
 {
   "name": "@songwuk/eslint-config-monorepo",
   "type": "module",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "eslint-config-monorepo",
   "author": "Song wuk <1017301325@qq.com>",
   "license": "MIT",
@@ -18,7 +18,7 @@
     "@songwuk/eslint-config": "workspace:*",
     "bumpp": "^8.2.1",
     "conventional-changelog-cli": "^2.2.2",
-    "eslint": "^8.18.0",
+    "eslint": "^8.28.0",
     "eslint-plugin-songwuk": "workspace:*",
     "execa": "^6.1.0",
     "picocolors": "^1.0.0"

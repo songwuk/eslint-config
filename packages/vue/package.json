@@ -1,6 +1,6 @@
 {
   "name": "@songwuk/eslint-config-vue",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "private": false,
   "publishConfig": {
     "access": "public",
@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@songwuk/eslint-config-ts": "workspace:*",
-    "eslint-plugin-vue": "^9.4.0"
+    "eslint-plugin-vue": "^9.7.0"
   },
   "devDependencies": {
     "eslint": "^8.23.0"
