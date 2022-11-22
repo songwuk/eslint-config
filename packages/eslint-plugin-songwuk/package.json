@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-songwuk",
   "type": "module",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "license": "MIT",
   "homepage": "https://github.com/songwuk/eslint-config",
   "main": "./dist/index.cjs",
