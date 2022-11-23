@@ -25,7 +25,20 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@songwuk/eslint-config-vue": "workspace:*"
+    "@songwuk/eslint-config-vue": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "@typescript-eslint/parser": "^5.43.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsonc": "^2.5.0",
+    "eslint-plugin-n": "^15.5.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-unicorn": "^44.0.2",
+    "eslint-plugin-vue": "^9.7.0",
+    "eslint-plugin-yml": "^1.2.0",
+    "jsonc-eslint-parser": "^2.1.0",
+    "yaml-eslint-parser": "^1.1.0"
   },
   "devDependencies": {
     "eslint": "^8.23.0"
