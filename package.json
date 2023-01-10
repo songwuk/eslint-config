@@ -1,7 +1,7 @@
 {
   "name": "@songwuk/eslint-config-monorepo",
   "type": "module",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "eslint-config-monorepo",
   "author": "Song wuk <1017301325@qq.com>",
   "license": "MIT",
