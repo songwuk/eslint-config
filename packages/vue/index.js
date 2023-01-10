@@ -1,3 +1,5 @@
+const { isPackageExists } = require('local-pkg')
+const TS = isPackageExists('typescript')
 module.exports = {
   overrides: [
     {
@@ -9,13 +11,19 @@ module.exports = {
       rules: {
         'no-unused-vars': 'off',
         'no-undef': 'off',
-        '@typescript-eslint/no-unused-vars': 'off',
+        ...(
+          TS
+            ? { '@typescript-eslint/no-unused-vars': 'off' }
+            : null
+        ),
       },
     },
   ],
   extends: [
     'plugin:vue/vue3-recommended',
-    '@songwuk/eslint-config-ts',
+    TS
+      ? '@songwuk/eslint-config-ts'
+      : '@songwuk/eslint-config-basic',
   ],
   rules: {
     'vue/max-attributes-per-line': 'off',
