@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-songwuk",
   "type": "module",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "license": "MIT",
   "homepage": "https://github.com/songwuk/eslint-config",
   "main": "./dist/index.cjs",
@@ -17,11 +17,11 @@
     "prepublishOnly": "pnpm run build"
   },
   "dependencies": {
-    "@typescript-eslint/utils": "^5.36.1"
+    "@typescript-eslint/utils": "^5.60.1"
   },
   "devDependencies": {
-    "rimraf": "3.0.2",
-    "unbuild": "^0.7.4",
-    "vitest": "^0.12.9"
+    "rimraf": "5.0.1",
+    "unbuild": "^1.2.1",
+    "vitest": "^0.32.2"
   }
 }
